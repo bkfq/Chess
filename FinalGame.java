@@ -57,9 +57,9 @@ public class FinalGame extends Applet implements ActionListener
 	JLabel title = new JLabel ("Instructions");
 	JTextArea text = new JTextArea (40, 40);
 	text.setBackground (Color.white);
-	text.append ("This is the first instruction.\n");
-	text.append ("And this is the second.\n");
-	text.append ("And this is the third.\n");
+	text.append ("All of the normal rules of chess apply.\n");
+	text.append ("One move can be undone and the board can be reset.\n");
+	text.append ("Warning messages will pop up when an illegal move is made.\n");
 	JButton next = new JButton ("Next");
 	next.setActionCommand ("s3");
 	next.addActionListener (this);
